@@ -1,0 +1,239 @@
+/***** FONTS IF NECESSARY *****/
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Roboto Slab', serif;
+ color: #605a51;
+  }
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  }
+
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: auto ;
+  padding: 0 0 0 0;
+  }
+
+.half-width {
+  width: 598px;
+  float: left;
+  }
+
+.third-width {
+  width: 396px;
+  float:left;
+  }
+
+.clear-fix {
+  overflow: auto;
+}
+
+/***** HEADER SECTION *****/
+header {
+  height: 710px;
+  background-image: url("../img/hero-image.png");
+  background-repeat: no-repeat;
+  background-color: silver;
+  background-position: center;
+}
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+margin-top: 250px;
+    padding: 48px 0 0 0;
+  font-size: 60px;
+  text-align:center;
+  color: #ea7656;
+  }
+
+header h2 {
+margin: 0 250px 0 250px;
+  font-family: 'Roboto', sans-serif;
+    padding: 20px 0 40px 0;
+    font-size: 42px;
+    font-weight: 300;
+    text-align:center;
+    line-height: 51px;
+    color: #095256;
+    }
+
+.passion {
+  font-family: 'Great Vibes', cursive;
+  padding: 48px 0 40px 0;
+  font-size: 44px;
+  text-align:center;
+  color: #605a51;
+  }
+
+header h1 a {
+  text-decoration: none;
+  color: #2b2b2b;
+  }
+
+nav {
+  float: right;
+  padding: 40px 15px 25px 0;
+  }
+
+nav ul li {
+  display: inline-block;
+  }
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color:#095256;
+  padding-left: 30px;
+  }
+
+/***** PORTFOLIO SECTION *****/
+#portfolio {
+  margin: 0 0 20px 0;
+  background-color: white;
+  border-top: 10px solid #605a51;
+  }
+
+#portfolio img {
+  width: 500px;
+  margin: 0 0 0 60px;
+  }
+
+  #portfolio h2 {
+    padding: 60px 40px 40px 40px;
+    font-size: 36px;
+    line-height: 40px;
+    color: #095256;
+    text-align:center;
+
+    }
+
+#portfolio h3 {
+      font-weight: bold;
+          padding: 0 0 0 0;
+          font-size: 24px;
+          line-height: 28px;
+          color: #095256;
+          }
+
+.project-type {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #605a51;
+      }
+
+#portfolio h4 {
+  font-weight: normal;
+  padding: 10px 0 20px 0;
+  font-size: 20px;
+  line-height: 24px;
+  color: #095256;
+  }
+
+#portfolio p {
+            padding: 0 0 15px 0;
+            font-size: 16px;
+            line-height: 25px;
+            color: #605a51;
+      }
+
+#portfolio .link {
+  font-weight: bold;
+  padding: 0 0 15px 0;
+  font-size: 16px;
+  line-height: 25px;
+  color: #605a51;
+}
+
+#portfolio .project {
+  overflow: auto;
+  padding: 30px 0 45px 0;
+  border-top: 1px solid silver;
+}
+
+/***** ABOUT SECTION *****/
+#about {
+  margin: 0 0 20px 0;
+  height: 450px;
+  background-color: #605a51;
+  }
+
+  #about h2 {
+      padding: 40px;
+      font-size: 36px;
+      line-height: 40px;
+      color: #fff;
+      text-align:center;
+      }
+
+#about h3 {
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    }
+
+#about p {
+  padding: 10px 0 0 0;
+  color: #fff;
+  }
+
+  #about img {
+    width: 300px;
+    margin: 0 0 0 0;
+    }
+
+    .mw {
+      font-family: 'Great Vibes', cursive;
+      padding: 48px 0 40px 0;
+      font-size: 32px;
+      text-align:center;
+      color: #fff;
+      }
+/***** FOOTER SECTION *****/
+
+#contact {
+  margin-bottom: 50px;
+  height: 400px;
+  background-color: beige;
+}
+
+#contact .clear­fix {
+  clear:both;
+  }
+
+#contact h2 {
+
+  padding: 40px;
+  font-size: 36px;
+  line-height: 40px;
+  color: #095256;
+  text-align:center;
+
+  }
+
+#contact h3 {
+  text-transform: uppercase;
+  padding: 20px 0 0 0;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight; bold;
+  text-align:center;
+  }
+
+#contact span {
+  font-weight:normal;
+  font-size:22px;
+  text-transform: none;
+  color:#77a466;
+  }
